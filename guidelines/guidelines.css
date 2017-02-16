@@ -33,3 +33,13 @@
 .change::after {
 	content:"]";
 }
+section.new, section.proposed {
+    padding: 1em;
+    margin-top: 1em;
+}
+section.new {
+    border: thick solid green;    
+}
+section.proposed {
+    border: thick solid orange;
+}
